@@ -1,0 +1,42 @@
+@font-face {
+  font-family: greek;
+  src: url(../../../core/assets/fonts/greek_font.ttf);
+}
+
+body {
+  background-color: #298203a2;
+  display:flex; 
+  flex-direction:column; 
+  margin: 15%;
+}
+
+h1 {
+  font-family: greek;
+  color: wheat;
+  margin: auto;
+  font-size: 1000%;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: wheat;
+  margin: auto;
+  font-size: 250%;
+  margin-bottom: 5%;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 20%;
+  text-align: center;
+  margin: auto;
+  background-color: #1e2919;
+  color: wheat;
+  padding: 6px 12px 6px 12px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
